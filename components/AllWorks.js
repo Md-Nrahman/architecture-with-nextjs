@@ -5,9 +5,9 @@ import { Swiper,SwiperSlide } from 'swiper/react'
 const AllWorks = () => {
   return (
     <div>
-          <div className='h-60 w-full bg-slate-100 relative'>
+          <div className='h-36 md:h-60 w-full bg-slate-100 relative'>
          <div>
-         <h1 className='absolute z-10 top-1/2 translate-x-2/4 -translate-y-2/4 right-1/2 font-semibold text-5xl text-center'>See All of <span className='text-indigo-600'>Our Works</span></h1>
+         <h1 className='absolute z-10 top-1/2 translate-x-2/4 -translate-y-2/4 right-1/2 font-semibold text-3xl md:text-5xl text-center'>See All of <span className='text-indigo-600'>Our Works</span></h1>
          </div>
         <div className=' text-6xl md:text-8xl h-full flex justify-center items-center text-gray-200 font-medium'><h1 className='text-center'>PORTFOLIO</h1></div>
 
