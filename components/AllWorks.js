@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Pagination } from 'swiper'
 import { Swiper,SwiperSlide } from 'swiper/react'
 
 const AllWorks = () => {
+  const [active, setActive] = useState(0) 
   return (
     <div>
           <div className='h-36 md:h-60 w-full bg-slate-100 relative'>
@@ -15,14 +16,14 @@ const AllWorks = () => {
           </div>
 
           <div>
-          <ul className='flex justify-end sm:text-xs md:text-xl font-light gap-2 mr-3 p-3'>
-          <li>All Project</li>
+          <ul className='flex justify-end sm:text-xs md:text-base font-light gap-2 mr-3 p-3'>
+          <li onClick={()=>setActive(0)} className={`hover:text-indigo-600 hover:cursor-pointer ${!active && 'font-bold'}`}>All Project</li>
                     <li>/</li>
-                    <li>Building</li>
+                    <li onClick={()=>setActive(1)} className={`hover:text-indigo-600 hover:cursor-pointer ${active==1 && 'font-bold'}`}>Building</li>
                     <li>/</li>
-                    <li>Interior</li>
+                    <li onClick={()=>setActive(2)} className={`hover:text-indigo-600 hover:cursor-pointer ${active==2 && 'font-bold'}`}>Interior</li>
                     <li>/</li>
-                    <li>Restaurant</li>
+                    <li onClick={()=>setActive(3)} className={`hover:text-indigo-600 hover:cursor-pointer ${active==3 && 'font-bold'}`}>Restaurant</li>
                 </ul>
           </div>
          <Swiper

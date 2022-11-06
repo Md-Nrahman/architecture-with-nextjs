@@ -7,7 +7,7 @@ const GallerySlider = () => {
   return (
     <div className='container px-16 lg:px-20 mx-auto my-14'>
 
-<h1 className='font-medium text-3xl md:text-5xl text-center my-14'>Creative <span className='text-indigo-600'>Expertise</span></h1>
+<h1 className='font-semibold text-3xl md:text-5xl text-center my-14'>Creative <span className='text-indigo-600'>Expertise</span></h1>
 
         <Swiper watchSlidesProgress={true} slidesPerView={1} className="mySwiper"
         style={{height:'400px'}}

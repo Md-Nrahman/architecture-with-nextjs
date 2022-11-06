@@ -53,7 +53,7 @@ useEffect(() => {
 />
 
 <div className='absolute z-20 top-2/3 right-1/2 translate-x-2/4 -translate-y-2/4 left-96'>
-  <h1 className='text-8xl text-white select-none font-light'>ARCHI</h1>
+  <h1 className='text-6xl text-white select-none font-medium'>ARCHI</h1>
 </div>
       {/* <Swiper
         pagination={{

@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div>
          <div className='bg-slate-50 relative pt-6'>
-        <h1 className='text-center text-3xl md:text-5xl font-semibold text pb-6 pt-6 text-gray-600'>Welcome to <span className='text-sky-700'>ARCDECO</span></h1>
+        <h1 className='text-center text-3xl md:text-5xl font-semibold text pb-6 pt-6 text-gray-600'>Welcome to <span className='text-indigo-600'>ARCHI</span></h1>
         <div className=' container mx-auto mt-6 relative'>
             <div className='md:grid md:grid-cols-2 grid-cols-1 space-x-3 justify-items-center'>
                 

@@ -5,7 +5,7 @@ const ProvideSection = ({more}) => {
     <div>
         <section className="text-gray-600 body-font pt-8">
 
-          <h1 className='font-semibold text-3xl md:text-5xl text-center'>What <span className='text-sky-700'>We Provide</span></h1>
+          <h1 className='font-semibold text-3xl md:text-5xl text-center'>What <span className='text-indigo-600'>We Provide</span></h1>
   <div className="container px-5 py-8 mx-auto">
     <div className="flex flex-wrap mx-20 justify-center">
       <div className="p-4 lg:w-1/3">
