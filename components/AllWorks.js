@@ -17,13 +17,13 @@ const AllWorks = () => {
 
           <div>
           <ul className='flex justify-end sm:text-xs md:text-base font-light gap-2 mr-3 p-3'>
-          <li onClick={()=>setActive(0)} className={`hover:text-indigo-600 hover:cursor-pointer ${!active && 'font-bold'}`}>All Project</li>
+          <li onClick={()=>setActive(0)} className={`hover:font-medium hover:cursor-pointer ${!active && 'text-indigo-600 font-bold'}`}>All Project</li>
                     <li>/</li>
-                    <li onClick={()=>setActive(1)} className={`hover:text-indigo-600 hover:cursor-pointer ${active==1 && 'font-bold'}`}>Building</li>
+                    <li onClick={()=>setActive(1)} className={`hover:font-medium hover:cursor-pointer ${active==1 && 'text-indigo-600 font-bold'}`}>Building</li>
                     <li>/</li>
-                    <li onClick={()=>setActive(2)} className={`hover:text-indigo-600 hover:cursor-pointer ${active==2 && 'font-bold'}`}>Interior</li>
+                    <li onClick={()=>setActive(2)} className={`hover:font-medium hover:cursor-pointer ${active==2 && 'text-indigo-600 font-bold'}`}>Interior</li>
                     <li>/</li>
-                    <li onClick={()=>setActive(3)} className={`hover:text-indigo-600 hover:cursor-pointer ${active==3 && 'font-bold'}`}>Restaurant</li>
+                    <li onClick={()=>setActive(3)} className={`hover:font-medium hover:cursor-pointer ${active==3 && 'text-indigo-600 font-bold'}`}>Restaurant</li>
                 </ul>
           </div>
          <Swiper

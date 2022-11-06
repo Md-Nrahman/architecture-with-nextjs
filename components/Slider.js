@@ -39,7 +39,7 @@ useEffect(() => {
 
 
   return (
-    <div className='bg-slate-400 relative'>
+    <div className='bg-slate-400 relative m-0'>
            <ReactBeforeSliderComponent
     firstImage={imageState?.FIRST_IMAGE}
     secondImage={imageState?.SECOND_IMAGE}
@@ -52,8 +52,11 @@ useEffect(() => {
    }
 />
 
-<div className='absolute z-20 top-2/3 right-1/2 translate-x-2/4 -translate-y-2/4 left-96'>
-  <h1 className='text-6xl text-white select-none font-medium'>ARCHI</h1>
+<div className='absolute z-20 top-1/3 translate-x-2/4 -translate-y-2/4 right-1/2'>
+  <div>
+  <h1 className='text-6xl text-white select-none font-medium text text-center'>Arc<span>Deco</span></h1>
+  <h1 className='text-lg text-white select-none font-light text text-center'>Turn your imagination into real life Objects</h1>
+  </div>
 </div>
       {/* <Swiper
         pagination={{

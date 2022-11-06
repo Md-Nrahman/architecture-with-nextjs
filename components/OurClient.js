@@ -1,4 +1,5 @@
 import React from "react";
+import { Autoplay } from "swiper";
 import { SwiperSlide, Swiper } from "swiper/react";
 import Arrow from "../assets/arrow-right.png";
 
@@ -21,6 +22,12 @@ const OurClient = () => {
             watchSlidesProgress={true}
             slidesPerView={2}
             className="logoSwiper"
+            loop={true}
+            autoplay={{
+              delay: 500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
             breakpoints={{
               640: {
                 slidesPerView: 2,
